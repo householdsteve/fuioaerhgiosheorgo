@@ -1,0 +1,101 @@
+// vars
+@darkgrey: #121212;
+
+body {
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-weight:lighter;
+  background:black;
+}
+body > .container {
+ margin-top:100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:lighter;
+}
+
+a {
+  color:white;
+  &:hover {
+    color:white;
+  }
+}
+
+.maingradient {
+  background: #000; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBhMDgwOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxZDFkMWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  #0a0809 0%, #1d1d1d 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0a0809), color-stop(100%,#1d1d1d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #0a0809 0%,#1d1d1d 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #0a0809 0%,#1d1d1d 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #0a0809 0%,#1d1d1d 100%); /* IE10+ */
+  background: linear-gradient(to right,  #0a0809 0%,#1d1d1d 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0809', endColorstr='#1d1d1d',GradientType=1 ); /* IE6-8 */
+  
+}
+
+ul li {
+  display:inline-block;
+  float:left;
+  width:auto;
+}
+
+section.header {
+  .maingradient;
+  height:90px;
+  color:#000;
+  li {
+    font-family: 'Pathway Gothic One', sans-serif;
+    background:#444444;
+    margin-left:2px;
+    a {
+      color:#000;
+      padding:2px 8px;
+    }
+  }
+  .row.main {
+    padding-top: 40px;
+  }
+  .corporate {
+    top:11px;
+  }
+}
+
+section.subheader {
+  color:#666666;
+  li a {
+    color:#666;
+  }
+}
+
+section.footer {
+  background:@darkgrey;
+  height:80px;
+  text-align:right;
+  padding:20px;
+  color:#0b0b0b;
+}
+
+.logo {
+  text-indent:-9999em;
+  width:306px;
+  height:35px;
+  background-image: url('../img/armani_casa-logo.png');
+  background-size: 306px 35px;
+  display:inline-block;
+}
+
+
+// override default royalslide classes
+.rsDefault .rsThumb.rsNavSelected {
+  background:#000;
+}
+.rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs  {
+  background:#000;
+}
+.royalSlider {
+    height: 480px;
+    width: 100%;
+}
