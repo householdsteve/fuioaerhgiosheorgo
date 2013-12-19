@@ -70,7 +70,7 @@ jQuery(function ($) {
               		pauseOnHover: true
               	},
           thumbs: {
-            appendSpan: false,
+            appendSpan: true,
             firstMargin: true,
             paddingBottom: 4,
             fitInViewport:false

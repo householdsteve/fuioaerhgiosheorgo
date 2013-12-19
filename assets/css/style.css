@@ -248,7 +248,7 @@ section.footer {
   background: #000;
 }
 .rsDefault .rsThumb {
-  height: auto;
+  height: 60px;
   width: auto;
 }
 .rsDefault,
