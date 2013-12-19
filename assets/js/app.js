@@ -43,8 +43,7 @@ jQuery(function ($) {
 		},
 		bindEvents: function () {
 			//panelOneInputs.on('click', this.toggleStyle);
-			$('video').mediaelementplayer({features: ['playpause','volume']});
-			
+		
 			this.$maingall.royalSlider({
           fullscreen: {
             enabled: false,

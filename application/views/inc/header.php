@@ -18,7 +18,6 @@
         <link rel="stylesheet" href="{{ pagevars.baseurl }}/assets/css/royalslider.css" type="text/css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="{{ pagevars.baseurl }}/assets/css/skins/default/rs-default.css" type="text/css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="{{ pagevars.baseurl }}/assets/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
-        <link rel="stylesheet" href="{{ pagevars.baseurl }}/assets/css/mediaelementplayer.min.css" type="text/css" media="screen" charset="utf-8">
         <link rel="stylesheet" href="{{ pagevars.baseurl }}/assets/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
         
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -42,7 +41,7 @@
        <section class="header col-md-12">
          <div class="row main">
           <div class="col-md-2"><a href="{{ pagevars.baseurl }}" class="logo">Armani / Casa</a></div>
-          <div class="col-md-4 col-md-offset-6 corporate">
+          <div class="col-md-4 col-md-offset-6 hidden-xs corporate">
             <ul class="nav clearfix pull-right">
               <li><a href="http://armani.com">ARMANI.COM</a></li>
               <li><a href="#">ARMANI/CASA RESTRICTED AREA</a></li>

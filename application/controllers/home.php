@@ -55,8 +55,25 @@ class Home extends CI_Controller {
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
         
+    $fullcatalog = explode(",",file_get_contents(base_url()."assets/catalog.txt"));
+    $sorted = array();
+    foreach($fullcatalog as $row){
+      $val = preg_match("/(\S+)\/+(\d*\_*)(\S+)\.(\S+)/",$row,$matches);
+      //this gives us:
+      // Array
+      //       (
+      //           [0] => 1_Limited_Edition/1_Aida.jpg
+      //           [1] => 1_Limited_Edition
+      //           [2] => 1_
+      //           [3] => Aida
+      //           [4] => jpg
+      //       )
+
+      $sorted[] = $matches;
+    }
+    
        
-    $this->twig->display('catalog.inc', array('pagevars'=> (object) $pagevars));
+    $this->twig->display('catalog.inc', array('pagevars'=> (object) $pagevars,'catalog'=>$sorted));
 	}
 	
 	public function ids($args=null)
