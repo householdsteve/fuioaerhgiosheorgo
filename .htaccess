@@ -1,4 +1,4 @@
-SetEnv APPENV local
+SetEnv APPENV development
 AddType text/x-component .htc
 AddType video/ogg .ogv
 AddType video/mp4 .mp4

@@ -7,3 +7,11 @@ application/cache/*
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
+
+.htaccess
+# stuff for python deploy
+post-receive
+Makefile
+git-ftp.py
+git-ftp.1
+git-ftp-test.py
