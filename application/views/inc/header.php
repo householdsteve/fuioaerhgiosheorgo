@@ -54,7 +54,7 @@
              <ul class="nav clearfix">
                <li><a href="{{ pagevars.baseurl }}catalog">CATALOG AT A GLANCE</a></li>
                <li><a href="{{ pagevars.baseurl }}interior-design-service">INTERIOR DESIGN SERVICE</a></li>
-               <li><a href="{{ pagevars.baseurl }}philosophy">PHILOSIPHY</a></li>
+               <li><a href="{{ pagevars.baseurl }}philosophy">PHILOSOPHY</a></li>
                <li><a href="{{ pagevars.baseurl }}contact">CONTACT</a></li>
              </ul>
         </section>

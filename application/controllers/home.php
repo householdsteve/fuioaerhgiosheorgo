@@ -54,6 +54,7 @@ class Home extends CI_Controller {
                "og" => array("image"=> base_url()."assets/img/kwikileaks-kwikdesk_logo.png",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
+        
        
     $this->twig->display('catalog.inc', array('pagevars'=> (object) $pagevars));
 	}
