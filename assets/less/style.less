@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight:lighter;
 }
 
+section {
+  display:block;
+}
+
 a {
   color:white;
   &:hover {
@@ -67,6 +71,43 @@ section.subheader {
   color:#666666;
   li a {
     color:#666;
+    &:first-child{
+      padding-left:0px;
+    }
+    &:hover {
+      background:none;
+      color:#fff;
+    }
+  }
+}
+
+section.body {
+  video {
+    max-width:998px;
+    margin:0 auto;
+  }
+}
+
+.row.layout {
+  min-height:500px;
+  font-size:13px;
+  color:#999;
+  h1 {
+    color:#fff;
+    font-size:26px;
+    margin-bottom:20px;
+  }
+  section {
+    margin-top:25px;
+  }
+  &.ids {
+    background: url('../img/sections/ids-flush.jpg') top right no-repeat;  
+  }
+  &.contact {
+    background: url('../img/sections/contact-flush.jpg') top right no-repeat;  
+  }
+  &.philosphy {
+    background: url('../img/sections/philosphy-flush.jpg') top right no-repeat;  
   }
 }
 
@@ -88,9 +129,115 @@ section.footer {
 }
 
 
+// adjustments for mobile
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .row.layout {
+    min-height:auto;
+
+    &.ids {
+      background:none;
+    }
+    &.contact {
+      background:none;
+    }
+    &.philosphy {
+      background:none;
+    }
+  }
+
+}
+
+// overrider video controls
+
+
+.mejs-container.mejs-chromeless {
+  margin:0 auto;
+  width:852px;
+}
+.mejs-chromeless .mejs-controls {
+  background:none;
+}
+
+.mejs-chromeless .mejs-button,
+.mejs-chromeless .mejs-time {
+	position: absolute;
+	background: transparent;
+}
+.mejs-chromeless .mejs-controls .mejs-time-rail .mejs-time-total {
+	background-color: transparent;
+	border: solid 1px #ccc;
+	height: 1px;
+}
+.mejs-chromeless .mejs-controls .mejs-time-rail .mejs-time-buffering {
+	height: 1px;
+}
+.mejs-chromeless .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background-color: rgba(255,255,255,0.3);
+	width: 0;
+	height: 1px;
+}
+.mejs-chromeless .mejs-controls .mejs-time-rail .mejs-time-current {
+	width: 0;
+	height: 1px;
+	background-color: #014CB6;
+}
+.mejs-chromeless .mejs-controls .mejs-time-rail .mejs-time-handle  {
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-time-rail .mejs-time-float {	
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-playpause-button  {
+	display: none;
+	
+}
+.mejs-chromeless .mejs-controls .mejs-playpause-button  button {
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-pause button  {
+	display: none;
+}
+
+.mejs-chromeless .mejs-controls .mejs-currenttime-container  {
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-duration-container  {
+	display: none;
+}
+
+
+.mejs-chromeless .mejs-controls .mejs-volume-button  {
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-volume-button button {
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-unmute button {
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-volume-button .mejs-volume-slider {
+	background: rgba(102,102,102,0.6);
+}
+
+.mejs-chromeless .mejs-controls .mejs-fullscreen-button  {
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-fullscreen-button  button {
+	display: none;
+}
+.mejs-chromeless .mejs-controls .mejs-captions-button {
+	display: none;
+}
+
+
 // override default royalslide classes
 .rsDefault .rsThumb.rsNavSelected {
   background:#000;
+}
+.rsDefault .rsThumb {
+    height: auto;
+    width: auto;
 }
 .rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs  {
   background:#000;

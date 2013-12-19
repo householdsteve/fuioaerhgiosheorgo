@@ -1,5 +1,8 @@
 SetEnv APPENV local
 AddType text/x-component .htc
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
 
 <IfModule mod_rewrite.c>
   #RewriteBase /2013/ono

@@ -43,6 +43,8 @@ jQuery(function ($) {
 		},
 		bindEvents: function () {
 			//panelOneInputs.on('click', this.toggleStyle);
+			$('video').mediaelementplayer({features: ['playpause','volume']});
+			
 			this.$maingall.royalSlider({
           fullscreen: {
             enabled: false,
@@ -63,10 +65,15 @@ jQuery(function ($) {
           arrowsNavHideOnTouch: true,
           keyboardNavEnabled: true,
           fadeinLoadedSlide: true,
+          autoPlay: {
+              		enabled: true,
+              		pauseOnHover: true
+              	},
           thumbs: {
-            appendSpan: true,
+            appendSpan: false,
             firstMargin: true,
-            paddingBottom: 4
+            paddingBottom: 4,
+            fitInViewport:false
           }
         });
 

@@ -1,0 +1,12 @@
+{% include 'inc/header.php' %}
+<div class="row ids layout">
+<section>
+  <div class="col-sm-5 col-md-5">
+  <h1>Interior Design Service</h1>
+  <article>
+    <p>The strategy for the growth of the brand has been reinforced by a commitment to developing an exclusive personal service for an international clientele: Armani/Casa has launched an Interior Design Studio created in response to clients’ demands for complete projects conceived according to the Armani style and philosophy.</p><p> A team of experienced architects and interior designers based in Milan, Paris, London and New York City, under direct supervision of Mr. Armani, is dedicated to the design development of private residences and real estate projects. </p><p>The interior design team provides clients with a comprehensive design service, to handle different projects, from room decoration to complete architectural planning. While implementing the Armani style in different contexts and with different shades, the ultimate aim of the Studio is to ever respond to the demands and wishes of the client. This consultancy service takes responsibility across the full span of a project, beginning with site analysis, research, meetings with the client, throughout construction phases until the final positioning of furniture and accessories. </p><p>The Interior Design Studio has been working on projects throughout the world. These are different in nature and complexity: apartments in the most exclusive locations, private yachts, exotic holidays villas and prestigious residential complex. </p><p>INSPIRATION “I view the home as a perfect shelter, a place where I can totally relax within a harmonious structure of colours and shapes that influences my feelings and mood to foster a sense of inner calm. All my homes reflect different and significant aspects of my personality, my life and my changing priorities, evolving gradually over time, while retaining their original character. They reflect my tastes and my passions, my aesthetic code and my profound need for comfort and functionality. </p><p>I always felt deeply passionate about the home, even before I launched Armani/Casa. Today I would like to share my vision and philosophical approach to living with the rest of the world. I want to create interiors in which people feel at ease and improve the aesthetic quality of their lives.”</p><p>Giorgio Armani </p>
+  </article>
+ </div>
+</section>
+</div>
+{% include 'inc/footer.php' %}

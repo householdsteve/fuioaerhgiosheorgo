@@ -39,10 +39,12 @@
 */
 
 $route['default_controller'] = "home";
-$route['search/fraction_time'] = 'search/fraction_time';
-$route['search/(:any)'] = 'search/index/$1';
-$route['home/tester'] = 'home/tester';
-$route['home/(:any)'] = 'home/index/$1';
+$route['catalog'] = 'home/catalog';
+$route['contact'] = 'home/contact';
+$route['philosophy'] = 'home/philosophy';
+$route['interior-design-service'] = 'home/ids';
+$route['home'] = 'home/index';
+//$route['home/(:any)'] = 'home/index/$1';
 $route['404_override'] = '';
 
 
