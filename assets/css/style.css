@@ -177,6 +177,10 @@ section.footer {
   body > .container {
     margin-top: 15px;
   }
+  ul li {
+    display: block;
+    float: none;
+  }
   .row.layout {
     min-height: auto;
   }
