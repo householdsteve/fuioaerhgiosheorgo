@@ -50,11 +50,25 @@
         </div>
        </section>
        <section class="subheader col-md-12">
+         <nav class="navbar navbar-default" role="navigation">
+           <!-- Brand and toggle get grouped for better mobile display -->
+           <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+           </div>
+
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
              <ul class="nav clearfix">
                <li><a href="{{ pagevars.baseurl }}catalog">CATALOG AT A GLANCE</a></li>
                <li><a href="{{ pagevars.baseurl }}interior-design-service">INTERIOR DESIGN SERVICE</a></li>
                <li><a href="{{ pagevars.baseurl }}philosophy">PHILOSOPHY</a></li>
                <li><a href="{{ pagevars.baseurl }}contact">CONTACT</a></li>
              </ul>
+             </div>
+             </nav>
         </section>
       </div>

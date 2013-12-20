@@ -57,6 +57,7 @@ class Home extends CI_Controller {
         
     $fullcatalog = explode(",",file_get_contents(base_url()."assets/catalog.txt"));
     $sorted = array();
+    echo "<pre>"; print_r($fullcatalog); echo "</pre>";
     foreach($fullcatalog as $row){
       $val = preg_match("/(\S+)\/+(\d*\_*)(\S+)\.(\S+)/",$row,$matches);
       //this gives us:

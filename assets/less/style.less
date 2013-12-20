@@ -142,7 +142,19 @@ section.footer {
   display:inline-block;
 }
 
+// over ride bootstrap
+.navbar-toggle {
+  float:left;
+  margin-left:5px;
+}
 
+.navbar-default {
+  background:none;
+  border:none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:white;
+}
 // adjustments for mobile
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
