@@ -44,7 +44,6 @@
           <div class="col-md-4 col-md-offset-6 hidden-xs corporate">
             <ul class="nav clearfix pull-right">
               <li><a href="http://armani.com">ARMANI.COM</a></li>
-              <li><a href="#">ARMANI/CASA RESTRICTED AREA</a></li>
             </ul>
           </div>
         </div>

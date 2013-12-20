@@ -44,7 +44,7 @@ jQuery(function ($) {
 		bindEvents: function () {
 			//panelOneInputs.on('click', this.toggleStyle);
 		
-			this.$maingall.royalSlider({
+			var slider = this.$maingall.royalSlider({
           fullscreen: {
             enabled: false,
             nativeFS: true
@@ -73,9 +73,17 @@ jQuery(function ($) {
             appendSpan: true,
             firstMargin: true,
             paddingBottom: 4,
-            fitInViewport:false
+            fitInViewport:false,
+            autoCenter: false,
+            imageScaleMode:"fill"
           }
+        }).data('royalSlider');
+        
+        slider.slides[0].holder.on('rsAfterContentSet', function() {
+            // fires when third slide content is loaded and added to DOM
+            $('.rsThumbsContainer',this.$maingall).css("opacity",1);
         });
+     
 
 		},
 		render: function () {

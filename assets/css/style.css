@@ -192,6 +192,10 @@ section.footer {
   body > .container {
     margin-top: 15px;
   }
+  .logo {
+    background-image: url('../img/armani_casa-logo@2x.png');
+    background-size: 306px 35px;
+  }
   ul li {
     display: block;
     float: none;
@@ -281,12 +285,25 @@ section.footer {
 .mejs-chromeless .mejs-controls .mejs-captions-button {
   display: none;
 }
-.rsDefault .rsThumb.rsNavSelected {
-  background: #000;
+#main-gallery a {
+  display: none;
+}
+.rsThumbsContainer {
+  width: 2000em;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  opacity: 0;
 }
 .rsDefault .rsThumb {
-  height: 60px;
+  position: relative;
   width: auto;
+  height: auto;
+}
+.rsDefault .rsThumb img {
+  top: -8px;
+  position: relative;
+}
+.rsDefault .rsThumb.rsNavSelected {
+  background: #000;
 }
 .rsDefault,
 .rsDefault .rsOverflow,
