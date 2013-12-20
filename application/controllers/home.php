@@ -22,6 +22,7 @@ class Home extends CI_Controller {
     parent::__construct();
  		$this->load->library('twig');
  		$this->load->helper('url');
+ 		$this->load->helper('file'); 		
  	}
 
 	public function index($args=null)
@@ -55,9 +56,9 @@ class Home extends CI_Controller {
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
         
-    $fullcatalog = explode(",",file_get_contents(base_url()."assets/catalog.txt"));
+    $fullcatalog = explode(",",read_file("assets/catalog.txt"));
     $sorted = array();
-    echo "<pre>"; print_r($fullcatalog); echo "</pre>";
+    //echo "<pre>"; print_r($fullcatalog); echo "</pre>";
     foreach($fullcatalog as $row){
       $val = preg_match("/(\S+)\/+(\d*\_*)(\S+)\.(\S+)/",$row,$matches);
       //this gives us:
