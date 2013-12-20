@@ -49,6 +49,7 @@ jQuery(function ($) {
             enabled: false,
             nativeFS: true
           },
+          globalCaption:true,
           controlNavigation: 'thumbnails',
           autoScaleSlider: false, 
           autoScaleSliderWidth: 998,     
