@@ -35,7 +35,7 @@ class Home extends CI_Controller {
                "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
                "description" => "", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
-               "og" => array("image"=> base_url()."assets/img/kwikileaks-kwikdesk_logo.png",
+               "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
        
@@ -52,7 +52,7 @@ class Home extends CI_Controller {
                "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
                "description" => "", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
-               "og" => array("image"=> base_url()."assets/img/kwikileaks-kwikdesk_logo.png",
+               "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
         
@@ -88,7 +88,7 @@ class Home extends CI_Controller {
                "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
                "description" => "", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
-               "og" => array("image"=> base_url()."assets/img/kwikileaks-kwikdesk_logo.png",
+               "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
        
@@ -105,7 +105,7 @@ class Home extends CI_Controller {
                "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
                "description" => "", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
-               "og" => array("image"=> base_url()."assets/img/kwikileaks-kwikdesk_logo.png",
+               "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
        
@@ -122,7 +122,7 @@ class Home extends CI_Controller {
                "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
                "description" => "", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
-               "og" => array("image"=> base_url()."assets/img/kwikileaks-kwikdesk_logo.png",
+               "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
        
