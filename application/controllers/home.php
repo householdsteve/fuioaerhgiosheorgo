@@ -33,8 +33,8 @@ class Home extends CI_Controller {
                "baseurl"=> base_url(), // THE BASE URL OF THE SITE
                "titlebase" => "Armani/Casa - ", // THE FIRST PART OF THE PAGE TITLE
                "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
-               "description" => "", // THIS IS FOR META TAGS
-               "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
+               "description" => "Welcome to Armani Casa. Take a glance at our catalog then come visit us. Big things are coming in 2014.", // THIS IS FOR META TAGS
+               "keywords" => "armani, casa, interior, design, service, home, giorgio, milano, new york, paris", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
@@ -49,8 +49,8 @@ class Home extends CI_Controller {
                "appenv"=>$_SERVER["APPENV"], // THIS ALLOWS US TO WRITE VARIABLES BASE ON ENVIRONMENT
                "baseurl"=> base_url(), // THE BASE URL OF THE SITE
                "titlebase" => "Armani/Casa - ", // THE FIRST PART OF THE PAGE TITLE
-               "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
-               "description" => "", // THIS IS FOR META TAGS
+               "title"=>"The catalog at a glance", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
+               "description" => "Take a look into our catalog. For a complete catalog or further details please feel to contact us.", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
@@ -85,8 +85,8 @@ class Home extends CI_Controller {
                "appenv"=>$_SERVER["APPENV"], // THIS ALLOWS US TO WRITE VARIABLES BASE ON ENVIRONMENT
                "baseurl"=> base_url(), // THE BASE URL OF THE SITE
                "titlebase" => "Armani/Casa - ", // THE FIRST PART OF THE PAGE TITLE
-               "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
-               "description" => "", // THIS IS FOR META TAGS
+               "title"=>"Interior Design Service", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
+               "description" => "The strategy for the growth of the brand has been reinforced by a commitment to developing an exclusive personal service for an international clientele: Armani/Casa has launched an Interior Design Studio created in response to clients’ demands for complete projects conceived according to the Armani style and philosophy.", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
@@ -102,8 +102,8 @@ class Home extends CI_Controller {
                "appenv"=>$_SERVER["APPENV"], // THIS ALLOWS US TO WRITE VARIABLES BASE ON ENVIRONMENT
                "baseurl"=> base_url(), // THE BASE URL OF THE SITE
                "titlebase" => "Armani/Casa - ", // THE FIRST PART OF THE PAGE TITLE
-               "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
-               "description" => "", // THIS IS FOR META TAGS
+               "title"=>"Design Philosophy", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
+               "description" => "Armani/Casa was founded in the year 2000 as a separate division, though seamlessly linked to the other worlds within the Armani Group, providing a platform for Giorgio Armani to set out his vision of the living space: an intimate and very special place, at one and the same time both comfortable and sophisticated.", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
@@ -119,9 +119,9 @@ class Home extends CI_Controller {
                "appenv"=>$_SERVER["APPENV"], // THIS ALLOWS US TO WRITE VARIABLES BASE ON ENVIRONMENT
                "baseurl"=> base_url(), // THE BASE URL OF THE SITE
                "titlebase" => "Armani/Casa - ", // THE FIRST PART OF THE PAGE TITLE
-               "title"=>"Dress your home", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
-               "description" => "", // THIS IS FOR META TAGS
-               "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
+               "title"=>"Contact", // THE SECOND PART OF PAGE TITLE. THIS SHOULD BE EXTENDED BELOW BASED ON CONTENT
+               "description" => "For information and requests please reach out to us.", // THIS IS FOR META TAGS
+               "keywords" => "contact, point of sale, stores, locations", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
                              "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );

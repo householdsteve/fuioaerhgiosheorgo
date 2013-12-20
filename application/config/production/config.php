@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://armanissl.com/armani-casa';
+$config['base_url']	= 'http://armanicasa.com';
 
 
 /*
