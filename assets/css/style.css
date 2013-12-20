@@ -24,6 +24,9 @@ a {
 a:hover {
   color: white;
 }
+a:visited {
+  color: #999;
+}
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
