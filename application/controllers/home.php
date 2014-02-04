@@ -53,7 +53,7 @@ class Home extends CI_Controller {
                "description" => "Take a look into our catalog. For a complete catalog or further details please feel to contact us.", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
-                             "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
+                             "title"=> "Armani/Casa - Welcome") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
         
     $fullcatalog = explode(",",read_file("assets/catalog.txt"));
@@ -89,7 +89,7 @@ class Home extends CI_Controller {
                "description" => "The strategy for the growth of the brand has been reinforced by a commitment to developing an exclusive personal service for an international clientele: Armani/Casa has launched an Interior Design Studio created in response to clients’ demands for complete projects conceived according to the Armani style and philosophy.", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
-                             "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
+                             "title"=> "Armani/Casa - Welcome") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
        
     $this->twig->display('ids.inc', array('pagevars'=> (object) $pagevars));
@@ -106,7 +106,7 @@ class Home extends CI_Controller {
                "description" => "Armani/Casa was founded in the year 2000 as a separate division, though seamlessly linked to the other worlds within the Armani Group, providing a platform for Giorgio Armani to set out his vision of the living space: an intimate and very special place, at one and the same time both comfortable and sophisticated.", // THIS IS FOR META TAGS
                "keywords" => "", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
-                             "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
+                             "title"=> "Armani/Casa - Welcome") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
        
     $this->twig->display('philosphy.inc', array('pagevars'=> (object) $pagevars));
@@ -123,7 +123,7 @@ class Home extends CI_Controller {
                "description" => "For information and requests please reach out to us.", // THIS IS FOR META TAGS
                "keywords" => "contact, point of sale, stores, locations", // THIS TOO, THESE BOTH SHOULD BE EXTENDED BASED ON CONTEXT
                "og" => array("image"=> base_url()."assets/img/og.jpg",
-                             "title"=> "Armani/Casa - Dress your home") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
+                             "title"=> "Armani/Casa - Welcome") // THESE ARE FOR SOCIAL CHANNELS LIKE FACEBOOK WHERE AN IMAGE IS SHARED.
           );
        
     $this->twig->display('contact.inc', array('pagevars'=> (object) $pagevars));
